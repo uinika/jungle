@@ -4,4 +4,4 @@ venv
 
 package-lock.json
 
-*/__pycache__/
+**/__pycache__/
