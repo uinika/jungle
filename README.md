@@ -1,6 +1,6 @@
 # Jungle
 
-![](./static/logo.jpg)
+![](./static/logo.png)
 
 ## 安装步骤
 
