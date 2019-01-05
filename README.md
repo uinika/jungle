@@ -1,13 +1,17 @@
-# 安装步骤
+# Jungle
 
-## 建立虚拟环境
+![](./static/logo.jpg)
+
+## 安装步骤
+
+### 建立虚拟环境
 
 ```cmd
 C:\Workspace\django
 λ python -m venv venv
 ```
 
-## 激活虚拟环境
+### 激活虚拟环境
 
 ```cmd
 C:\Workspace\django
@@ -15,13 +19,13 @@ C:\Workspace\django
 (venv) λ
 ```
 
-## 安装项目依赖包
+### 安装项目依赖包
 
 ```cmd
 pip install -r requirements.txt
 ```
 
-## 启动 Django 服务
+### 启动 Django 服务
 
 ```cmd
 (venv) λ python manage.py runserver 8080
