@@ -7,3 +7,5 @@ package-lock.json
 **/__pycache__/
 
 mysite/__pycache__
+
+mysite/**/migrations

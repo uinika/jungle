@@ -39,6 +39,33 @@ Successfully installed pip-18.1
 pip install -r requirements.txt
 ```
 
+## 同步 SQLite 数据库
+
+生成 migrations 文件。
+
+```cmd
+C:\Workspace\cloud-key\mysite (master -> origin)
+(venv) λ    python manage.py makemigrations nfc
+Migrations for 'nfc':
+  nfc\migrations\0001_initial.py
+    - Create model NfcKey
+```
+
+执行 migrations 文件。
+
+```cmd
+C:\Workspace\cloud-key\mysite (master -> origin)
+(venv) λ    python manage.py migrate
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, nfc, sessions
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying auth.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying admin.0003_logentry_add_action_flag_choices... OK
+```
+
 ### 启动 Django 服务
 
 ```cmd
